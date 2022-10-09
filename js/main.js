@@ -16,9 +16,15 @@ const links = [
       url: "week3/teamAssignment/index.html"
     },
 
-    { label: "Week 3 Notes",
+    { 
+      label: "Week 3 Notes",
       url: "week3/index.html"
-  }
+    },
+
+    {
+      label: "Week 4 Team Assignment",
+      url: "week4/teamAssignment/index.html"
+    }
   ]
 
   let currentdate = document.lastModified;
