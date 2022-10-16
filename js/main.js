@@ -24,6 +24,26 @@ const links = [
     {
       label: "Week 4 Team Assignment",
       url: "week4/teamAssignment/index.html"
+    },
+
+    {
+      label: "Week 4 Code Exercise",
+      url: "week4/exercise/teamAssignmentRevamp.html"
+    },
+
+    // {
+    //   label: "Week 4 Code Exercise",
+    //   url: "week4/exercise/index.html"
+    // },
+
+    {
+      label: "Week 5 Team Assignment",
+      url: "week5/teamAssignment/index.html"
+    },
+
+    {
+      label: "Week 5 Code Exercise",
+      url: "week5/index.html"
     }
   ]
 
