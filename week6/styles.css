@@ -1,0 +1,14 @@
+#taskarea{
+    height: 800px;
+    position: relative;
+}
+
+#newtask{
+    position: absolute;
+    margin-top: 200px;
+}
+
+body{
+    max-width: 500px;
+    margin: auto;
+}

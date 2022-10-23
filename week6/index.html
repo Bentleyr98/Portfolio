@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do Application</title>
+</head>
+<body>
+    <div id="taskarea">
+        <h1>To Dos</h1>
+        <label id="tasklist" for="tasklist"></label>
+<!-- Build an app that'll allow users to create new tasks, view tasks, and mark tasks as create -->
+<!-- remove tasks, and filter by complete/not complete -->
+<!-- UI Actions
+Show a list of tasks, add a new task, complete a task, remove a task, filter tasks -->
+
+<!-- Data Sources
+todo: { id : timestamp, content: string, completed: bool }
+toDoList = [toDo]; -->
+
+    <div id="newtask">
+        <textarea id="task" placeholder="Add task here!" required rows="1"></textarea>
+        <button type="button" onclick="alert(task.value)" id="add">+</button>
+    </div>
+
+    </div>
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
