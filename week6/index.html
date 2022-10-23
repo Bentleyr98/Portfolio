@@ -9,8 +9,10 @@
 </head>
 <body>
     <div id="taskarea">
-        <h1>To Dos</h1>
-        <label id="tasklist" for="tasklist"></label>
+        <h1>To Do List</h1>
+        <p id = "tasklist">
+            <input type="checkbox">done</input>
+        </p>
 <!-- Build an app that'll allow users to create new tasks, view tasks, and mark tasks as create -->
 <!-- remove tasks, and filter by complete/not complete -->
 <!-- UI Actions
@@ -22,7 +24,7 @@ toDoList = [toDo]; -->
 
     <div id="newtask">
         <textarea id="task" placeholder="Add task here!" required rows="1"></textarea>
-        <button type="button" onclick="alert(task.value)" id="add">+</button>
+        <button type="button" id="add">+</button>
     </div>
 
     </div>
