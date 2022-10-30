@@ -49,6 +49,16 @@ const links = [
     {
       label: "To Do Application",
       url: "week6/index.html"
+    },
+
+    {
+      label: "Week 7 Exercise",
+      url: "week7/exercise/index.html"
+    },
+
+    {
+      label: "Week 7 Notes",
+      url: "week7/index.html"
     }
   ]
 

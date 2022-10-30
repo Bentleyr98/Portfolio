@@ -8,6 +8,7 @@ let i = 1;
 const add = document.getElementById('add');
 add.addEventListener('click', addTask);
 
+var tasks = new Array();
 
 function addTask(){
     var text = document.getElementById('task');
@@ -23,5 +24,8 @@ function addTask(){
     text.value = "";
     i =+1;
     console.log(i);
+    tasks.push(todo);
+    console.log(tasks);
 }
+
 
