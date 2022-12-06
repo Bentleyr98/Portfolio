@@ -53,6 +53,13 @@
       "userId": "user1@email.com",
       "createdAt": 1559159640285,
       "id": 12
+    },
+    {
+      "title": "Second post",
+      "content": "mypost",
+      "userId": "user1@email.com",
+      "createdAt": 1669183456522,
+      "id": 13
     }
   ]
 }
