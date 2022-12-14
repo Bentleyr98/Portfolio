@@ -5,6 +5,7 @@ export class constellation {
         this.img = constellation.img;
         this.love = false;
         this.fav = '../images/preFav.png';
+        
 
     }
 
@@ -28,6 +29,7 @@ export class constellation {
         h2.textContent = this.name;
         // Add/append the section(card) with the h2 element
         card.appendChild(h2);
+        // addStarListener();
         
         // Add/append the existing HTML div with the cards class with the section(card)
         document.querySelector('div.cards').appendChild(card);
@@ -39,6 +41,25 @@ export class constellation {
         } else {
             this.fav = '../images/postFav.png'
         }
+      }
+
+      addStarListener() {
+        // We need to loop through the children of our list and attach a listener to each, remember though that children is a nodeList...not an array. So in order to use something like a forEach we need to convert it to an array.
+        // const childrenArray = Array.from(this.parentElement.children);
+        // childrenArray.forEach(child => {
+        //   this.img.addEventListener('clicked', e => {
+        //     // why currentTarget instead of target?
+        //     console.log(e.currentTarget.dataset.name);
+        //     // this.love = true.
+        //     // this.favorite(e.currentTarget.dataset.name);
+        //   });
+        // });
+            this.fav.addEventListener('clicked', e => {
+            // why currentTarget instead of target?
+            console.log(e);
+            // this.love = true.
+            // this.favorite(e.currentTarget.dataset.name);
+          });
       }
 
 }

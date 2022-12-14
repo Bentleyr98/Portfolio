@@ -39,7 +39,12 @@ fetch(requestURL)
         star.displayStars();
       });
 
-      document.querySelectorAll('.love').addEventListener('click', alert('Help'));
+      // document.addEventListener('click', function(e) {
+      //   let currentElement = e.target;
+      //   console.log(currentElement);
+        
+      // }
+      // );
  
   }); 
 

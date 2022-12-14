@@ -84,6 +84,11 @@ const links = [
     {
       label: "Week 11 Team Assignment",
       url: "week11/client/index.html"
+    },
+
+    {
+      label: "Challenge Two - Celestial Skies",
+      url: "Final/index.html"
     }
   ]
 
