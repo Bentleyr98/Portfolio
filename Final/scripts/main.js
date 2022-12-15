@@ -26,7 +26,7 @@ fetch(url)
     }
 
 
-    fetch('../json/whiteDrawf.json')
+    fetch('../Final/json/whiteDrawf.json')
     .then(response => {
     return response.json();
     })

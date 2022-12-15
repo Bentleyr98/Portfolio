@@ -18,7 +18,7 @@ p.textContent = 'Select the heart to keep track of the constellations you\'ve se
 p.className = "cp";
 cdiv.appendChild(p);
 
-const requestURL = '../json/constellations.json';
+const requestURL = '../Final/json/constellations.json';
 let history = ls();
 
 const cards = document.createElement('div');
