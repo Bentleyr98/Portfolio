@@ -15,9 +15,9 @@ export class constellation {
         let fav = document.createElement('img');
         fav.className = 'love';
         if (this.love == false){
-            this.fav = '../images/preFav.png'
+            this.fav = '../Final/images/preFav.png'
         } else {
-           this.fav =  '../images/postFav.png'
+           this.fav =  '../Final/images/postFav.png'
         }
         fav.setAttribute('src', this.fav);
         fav.setAttribute('alt', this.name.split(" ").join(""));
@@ -40,12 +40,12 @@ export class constellation {
       favorite(fav){
         let img = document.querySelector('img[alt=' + fav +']')
         if (this.love == true){
-            this.fav = '../images/postFav.png'
-            img.setAttribute('src', '../images/postFav.png');
+            this.fav = '../Final/images/postFav.png'
+            img.setAttribute('src', '../Final/images/postFav.png');
             
         } else {
-            this.fav = '../images/preFav.png';
-            img.setAttribute('src', '../images/preFav.png');
+            this.fav = '../Final/images/preFav.png';
+            img.setAttribute('src', '../Final/images/preFav.png');
         }
       }
 

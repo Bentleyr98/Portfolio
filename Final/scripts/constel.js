@@ -47,7 +47,7 @@ fetch(requestURL)
           // what to do if star isn't in ls
             sName = stars.name;
             img = stars.img;
-            fav = '../images/preFav.png';
+            fav = '../Final/images/preFav.png';
             love = false;
             var newStar = new constellation(sName, img, love, fav);
             newStar.displayStars();
