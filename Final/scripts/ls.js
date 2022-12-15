@@ -1,5 +1,5 @@
 // local storage
-function ls (){
+export function ls (){
     
     let items = Array();
     let keys = Object.keys(localStorage);
@@ -9,5 +9,3 @@ function ls (){
 
     return items;
 }
-
-export default ls;

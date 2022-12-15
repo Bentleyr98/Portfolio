@@ -1,11 +1,11 @@
 
 class ToDo {
 
-    constructor(text, id, tasklist) {
+    constructor(text, id, tasklist, active) {
         this.text = text;
         this.tasklist = tasklist;
         this.id = id;
-        this.active = false;
+        this.active = active;
       }
 
       makeTask(){
@@ -16,9 +16,8 @@ class ToDo {
 
         const task = document.createElement('input');
         task.setAttribute('type', 'checkbox');
-        task.setAttribute('id', 'task' + this.id);
+        task.setAttribute('id', this.id);
         task.setAttribute('value', this.text);
-        console.log(this.text);
         const button = document.createElement('button');
         task.setAttribute('value', 'X');
 
@@ -30,11 +29,6 @@ class ToDo {
       
         lbl.appendChild(document.createTextNode(this.text));
         lbl.appendChild(button);
-  
-        
-
-        console.log(this.tasklist);
-        console.log(task);
 
       }
     
