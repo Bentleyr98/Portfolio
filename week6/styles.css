@@ -13,16 +13,48 @@ body{
     margin: auto;
 }
 
-/* #tasklist{
-    display: flex;
-    flex-direction: column;
-} */
+#taskarea{
+    background-color: rgb(245, 245, 209);
+    border: black solid 7px;
+    padding: 20px;
+
+}
+
+#taskarea h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p#tasklist, div#newtask{
+ padding-left: 100px;
+ 
+
+}
+
+p#tasklist label{
+    padding-bottom: 10px;
+}
 
 label {
     display: block;
     padding-left: 15px;
     text-indent: -15px;
     margin-right: 20px;
+  }
+
+  #tasklist > label > button {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    float: right;
+  }
+
+  button#add{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    float: right;
+    margin-left: 135px;
   }
   
   input {

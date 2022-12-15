@@ -19,7 +19,7 @@ class ToDo {
         task.setAttribute('id', this.id);
         task.setAttribute('value', this.text);
         const button = document.createElement('button');
-        task.setAttribute('value', 'X');
+        button.textContent = "X";
 
        
         
